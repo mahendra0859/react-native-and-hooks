@@ -2,6 +2,7 @@ import React from "react";
 import { View, Text, StyleSheet, FlatList } from "react-native";
 
 const ListScreen = () => {
+  // console.log("Props", props);
   const team = [
     // { key: "1", name: "Mahendra" },
     // { key: "2", name: "Pramod" },

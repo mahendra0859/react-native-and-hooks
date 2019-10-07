@@ -10,9 +10,9 @@ const navigator = createStackNavigator(
     List: ListScreen
   },
   {
-    // initialRouteName: "Home",
+    initialRouteName: "Home",
     // initialRouteName: "Components",
-    initialRouteName: "List",
+    // initialRouteName: "List",
     defaultNavigationOptions: {
       title: "React Native App Title"
     }
