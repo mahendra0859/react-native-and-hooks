@@ -6,14 +6,14 @@ const ComponetsScreen = () => {
   return (
     <View>
       <Text style={styles.textStyle}>Getting started with React Native!</Text>
-      <Text style={styles.subHeaderStyle}>{name}</Text>
+      <Text style={styles.subHeaderStyle}>by - {name}</Text>
     </View>
   );
 };
 
 const styles = StyleSheet.create({
-  textStyle: { fontSize: 45 },
-  subHeaderStyle: { fontSize: 20 }
+  textStyle: { fontSize: 45, textAlign: "center" },
+  subHeaderStyle: { fontSize: 20, textAlign: "center" }
 });
 
 export default ComponetsScreen;

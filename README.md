@@ -1,3 +1,3 @@
 # React Native Tutorial code
 
-![](https://media.giphy.com/media/J4lsBTInsFuwfh8xPq/giphy.gif)
+![](https://media.giphy.com/media/dYy3PyLm4MdsGpVEa1/giphy.gif)

@@ -5,12 +5,17 @@ const HomeScreen = ({ navigation }) => {
   const { navigate } = navigation;
   return (
     <View>
-      <Text style={styles.text}>Hi there!!</Text>
+      <Text style={styles.text}>Welcome to React Native Home Page</Text>
+      <Text style={styles.subText}>
+        Click the following buttons to navigate to particular screens...
+      </Text>
       <Button
         title="Go to Components Demo"
         onPress={() => navigate("Components")}
       />
       <Button title="Go to List Demo" onPress={() => navigate("List")} />
+      <Button title="Go to Image Screen" onPress={() => navigate("Images")} />
+
       {/* <TouchableOpacity onPress={() => navigate("List")}>
         <Text>Go to List Demo</Text>
         <Text>Go to List Demo</Text>
@@ -23,8 +28,14 @@ const HomeScreen = ({ navigation }) => {
 
 const styles = StyleSheet.create({
   text: {
-    fontSize: 30,
-    marginTop: 10
+    fontSize: 20,
+    marginTop: 10,
+    textAlign: "center",
+    marginBottom: 4
+  },
+  subText: {
+    marginBottom: 4,
+    textAlign: "center"
   }
 });
 
