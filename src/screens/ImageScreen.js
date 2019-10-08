@@ -6,6 +6,7 @@ import ImageDetail from "../components/ImageDetail";
 const ImageScreen = () => {
   return (
     <View>
+      <Text style={styles.textStyle}>List of Images</Text>
       <ImageDetail
         title="Nature"
         imageSource={require("../../assets/nature.jpg")}
@@ -36,7 +37,7 @@ const ImageScreen = () => {
 };
 
 const styles = StyleSheet.create({
-  textStyle: { fontSize: 30 }
+  textStyle: { fontSize: 30, textAlign: "center" }
 });
 
 export default ImageScreen;
